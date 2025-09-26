@@ -149,12 +149,14 @@ letter-spacing: 0.02em;
 text-align: center;
 color: var(--navy-blue);
 }
+/*  
 .features-list {
   
 }
 .features-item {
   
 }
+*/
 .features-content {
   font-family: var(--font-family);
 font-weight: 500;
@@ -181,12 +183,13 @@ color: var(--slate);
   text-align: center;
   color: var(--navy-blue);
 }
+/*  
 .team-list {
 
 }
 .team-item {
 
-}
+} */
 .team-content {
   font-family: var(--font-family);
   font-weight: 500;
