@@ -1,0 +1,302 @@
+/*«C1» Для оформлення використовуються селектори класу.*/
+
+/*<h2 class="title">Привіт, я Mango.</h2>
+<p class="text">
+  Вітаю вас на моїй особистій сторінці. Тут можна подивитися
+  <a class="link" href="">проєкти</a>.
+</p>
+
+<h2>Цей заголовок не буде стилізовано</h2>
+<p>Цей текст не буде стилізовано<p>
+<a href="">Це посилання не буде стилізовано</a>*/
+
+/* Застосовується до всіх тегів з класом title 
+.title {
+    color: skyblue;
+  }
+  
+  Застосовується до всіх тегів із класом text 
+  .text {
+    color: brown;
+  }
+  
+   Застосовується до всіх тегів з класом link 
+  .link {
+      color: tomato;
+  } */
+
+  /* ================== Базовые стили ================== */
+
+:root {
+  --iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+
+
+
+
+body {
+    font-family: 'Roboto', Arial, sans-serif; /* C5, C6, C7 */
+    color: #2e2f42; /* C8 */
+    font-size: 16px; /* C9 */
+    line-height: 1.5; /* C10 */
+    
+
+  }
+
+  ul,
+  ol {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    cursor: pointer;
+  }
+  
+
+
+
+  /* Заголовки */
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; /* C12 */
+    font-size: 32px; /* C9 */
+    color: #1f1f1f; /* C11 */
+    line-height: 1.2; /* C10 */
+    margin-bottom: 24px;
+  }
+  
+  h3 {
+    font-weight: 500; /* C12 */
+    font-size: 20px; /* C9 */
+    color: #333333; /* C11 */
+    line-height: 1.3; /* C10 */
+    margin-top: 12px;
+  }
+  
+  /*=================== Header ===================*/
+  /* ================== Контакты в header ================== */
+.logo {
+  font-family: var(--second-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris);
+}
+.studiya {
+  font-family: var(--second-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--navy-blue);
+}
+
+
+
+
+
+  .header-contact a {
+    color: #6b7280; /* обычный цвет */
+    text-decoration: none;
+    transition: color 0.2s ease; /* C3, C4 */
+  }
+  
+  .header-contact a:hover,
+  .header-contact a:focus {
+    color: #2563eb; /* активный цвет */
+    outline: none;
+  }
+
+  /* ================== Hero Section =================  */
+/* ================== Кнопки ================== */
+.button, .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: #2563eb; /* цвет по макету */
+  color: #ffffff;
+  font-weight: 500; /* C12 */
+  text-decoration: none;
+  cursor: pointer; /* C13 */
+  border: none;
+  transition: background-color 0.2s ease, color 0.2s ease; /* C3 */
+}
+/* =====================Features Section ====================*/
+.features-title {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--navy-blue);
+}
+.features-list {
+  
+}
+.features-item {
+  
+}
+.features-content {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+.features-text {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: var(--slate);
+}
+/* ================== Team Section =================== */
+.team-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+.team-list {
+
+}
+.team-item {
+
+}
+.team-content {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+.team-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--slate);
+}
+
+/* ================== Our Portfolio ================== */
+  /* Абзацы */
+  .portfolio-description {
+    font-weight: 400; /* C12 */
+    font-size: 16px; /* C9 */
+    line-height: 1.5; /* C10 */
+    color: #555555; /* C11 */
+    margin-top: 6px;
+
+
+  }
+  .our-portfolio {
+    padding: 60px 20px;
+  }
+  
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style: none; /* C14 */
+    padding: 0; /* C14 */
+    margin: 0; /* C14 */
+  }
+  
+  .portfolio-item {
+    flex: 1 1 calc(33.333% - 24px);
+    box-sizing: border-box;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  
+  
+  .button:hover,
+  .button:focus,
+  .btn:hover,
+  .btn:focus {
+    background-color: #1e4bb8; /* активный цвет */
+    outline: none;
+  }
+  
+  
+  
+  /* ================== Фоновые цвета ================== */
+  .header, footer {
+    background-color: #f9fafb; /* C11 */
+  }
+  
+  /* ================== Адаптивность ================== */
+  @media (max-width: 900px) {
+    .portfolio-item {
+      flex: 1 1 calc(50% - 24px);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .portfolio-item {
+      flex: 1 1 100%;
+    }
+  }
+
+  /* ============ footer =========== */
+  .logo {
+    font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+  }
+  .studiya {
+    font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue);
+  }
+
+  .footer-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: var(--cloud);
+  }
