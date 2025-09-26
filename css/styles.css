@@ -48,11 +48,11 @@
 
 
 body {
-    font-family: 'Roboto', Arial, sans-serif; /* C5, C6, C7 */
-    color: #2e2f42; /* C8 */
-    font-size: 16px; /* C9 */
-    line-height: 1.5; /* C10 */
-    
+   font-family: "Roboto", sans-serif ; 
+   color: #434455 ;
+    font-size: 16px; 
+    line-height: 1.5; 
+    background-color:#FFFFFF;
 
   }
 
@@ -73,18 +73,18 @@ body {
   /* Заголовки */
   h2 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700; /* C12 */
-    font-size: 32px; /* C9 */
-    color: #1f1f1f; /* C11 */
-    line-height: 1.2; /* C10 */
+    font-weight: 700; 
+    font-size: 32px; 
+    color: #1f1f1f; 
+    line-height: 1.2; 
     margin-bottom: 24px;
   }
   
   h3 {
-    font-weight: 500; /* C12 */
-    font-size: 20px; /* C9 */
-    color: #333333; /* C11 */
-    line-height: 1.3; /* C10 */
+    font-weight: 500; 
+    font-size: 20px; 
+    color: #333333; 
+    line-height: 1.3; 
     margin-top: 12px;
   }
   
@@ -108,15 +108,24 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--navy-blue);
 }
+.header-link {
+  font-weight: 500 ;
+  letter-spacing: 0.02em;
+  color:#2e2f42;
 
+}
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf ;
+}
 
 
 
 
   .header-contact a {
-    color: #6b7280; /* обычный цвет */
+    color: #6b7280; 
     text-decoration: none;
-    transition: color 0.2s ease; /* C3, C4 */
+    transition: color 0.2s ease; 
   }
   
   .header-contact a:hover,
@@ -248,7 +257,9 @@ color: var(--slate);
   
   
   .button:hover,
-  .button:focus,
+  .button:focus {
+    color: #404bbf;
+  }
   .btn:hover,
   .btn:focus {
     background-color: #1e4bb8; /* активный цвет */
