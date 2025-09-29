@@ -1,45 +1,8 @@
-/*«C1» Для оформлення використовуються селектори класу.*/
-
-/*<h2 class="title">Привіт, я Mango.</h2>
-<p class="text">
-  Вітаю вас на моїй особистій сторінці. Тут можна подивитися
-  <a class="link" href="">проєкти</a>.
-</p>
-
-<h2>Цей заголовок не буде стилізовано</h2>
-<p>Цей текст не буде стилізовано<p>
-<a href="">Це посилання не буде стилізовано</a>*/
-
-/* Застосовується до всіх тегів з класом title 
-.title {
-    color: skyblue;
-  }
-  
-  Застосовується до всіх тегів із класом text 
-  .text {
-    color: brown;
-  }
-  
-   Застосовується до всіх тегів з класом link 
-  .link {
-      color: tomato;
-  } */
-
-  /* ================== Базовые стили ================== */
-
 :root {
   --iris: #4d5ae5;
-	--ocean: #404bbf;
-	--navy-blue: #2e2f42;
-	--green: #31d0aa;
-	--slate: #434455;
-	--light-slate: #8e8f99;
-	--cornflower: #e7e9fc;
-	--cloud: #f4f4fd;
-	--navy-blue-modal: rgba(46, 47, 66, 0.4);
-	--grey: rgba(46, 47, 66, 0.7);
-	--white: #fff;
-	--dairy: #fcfcfc;
+  --navy-blue: #2e2f42;
+  --slate: #434455;
+  --cloud: #f4f4fd;
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
 }
@@ -66,144 +29,148 @@ button {
   cursor: pointer;
 }
 
-  
+h1.hero-title {
+  font-family: var(--second-family);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
 
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
 
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 
-  /* Заголовки */
-  h2 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700; 
-    font-size: 32px; 
-    color: #1f1f1f; 
-    line-height: 1.2; 
-    margin-bottom: 24px;
-  }
-  
-  h3 {
-    font-weight: 500; 
-    font-size: 20px; 
-    color: #333333; 
-    line-height: 1.3; 
-    margin-top: 12px;
-  }
-  
-  .button {
-    display: inline-block;
-    padding: 12px 24px;
-    border-radius: 8px;
-    background-color: #4d5ae5;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.2s ease, color 0.2s ease;
-  }
-  
-  .button:hover,
-  .button:focus {
-    background-color: #404bbf;
-  }
-  
-  .logo {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
-  }
-  
-  .studiya {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--navy-blue);
-  }
-  
-  .nav-link {
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-decoration: none;
-    transition: color 0.2s ease;
-  }
-  
-  .nav-link:hover,
-  .nav-link:focus {
-    color: #404bbf;
-  }
-  
-  .header-address {
-    font-style: normal;
-  }
-  
-  .contact-link {
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
-    transition: color 0.2s ease;
-  }
-  
-  .contact-link:hover,
-  .contact-link:focus {
-    color: #404bbf;
-  }
-  
-  .hero {
-    background-color: #2e2f42;
-    text-align: center;
-    padding: 60px 20px;
-  }
-  
-  .our-portfolio {
-    background-color: #f4f4fd;
-  }
-  
-  .portfolio-item {
-    background-color: #ffffff;
-  }
-  
-  .fourth-section {
-    text-align: center;
-  }
-  
-  .fourth-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-  }
-  
-  .fourth-text {
-    letter-spacing: 0.02em;
-    color: #434455;
-  }
-  
-  .footer {
-    background-color: #2e2f42;
-  }
-  
-  .footer .studiya {
-    color: #f4f4fd;
-  }
-  
-  .footer-text {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--cloud);
-  }
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: #4d5ae5;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+.logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.studiya {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue);
+}
+
+.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.contact-link {
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.our-portfolio {
+  background-color: #f4f4fd;
+}
+
+.portfolio-item {
+  background-color: #ffffff;
+}
+
+.fourth-section {
+  text-align: center;
+}
+
+.fourth-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.fourth-text {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer .studiya {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+}
   
