@@ -90,58 +90,55 @@ body {
   
   /*=================== Header ===================*/
   /* ================== Контакты в header ================== */
-/* ============ Logo ============ */
-.logo {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--iris);
-}
 
-.studiya {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--navy-blue);
-}
-
-/* ============ Navigation Links ============ */
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
-}
-
-/* ============ Address ============ */
-.header-address {
-  font-style: normal; /* прибирає курсив */
-}
-
-.contact-link {
-  color: #6b7280;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-  color: #2563eb;
-  outline: none;
-}
-
+  .logo {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+  }
+  
+  .studiya {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue);
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #404bbf;
+  }
+  
+  .header-address {
+    font-style: normal;
+  }
+  
+  .contact-link {
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .contact-link:hover,
+  .contact-link:focus {
+    color: #404bbf;
+  }
   /* ================== Hero Section =================  */
 /* ================== Кнопки ================== */
 .button, .btn {
