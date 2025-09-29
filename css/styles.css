@@ -44,28 +44,28 @@
   --second-family: "Raleway", sans-serif;
 }
 
-
-
-
 body {
-   font-family: "Roboto", sans-serif ; 
-   color: #434455 ;
-    font-size: 16px; 
-    line-height: 1.5; 
-    background-color:#FFFFFF;
+  font-family: var(--font-family);
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #ffffff;
+}
 
-  }
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-  ul,
-  ol {
-    list-style-type: none;
-  }
-  a {
-    text-decoration: none;
-  }
-  button {
-    cursor: pointer;
-  }
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
   
 
 
@@ -88,27 +88,45 @@ body {
     margin-top: 12px;
   }
   
-  /*=================== Header ===================*/
-  /* ================== Контакты в header ================== */
-
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: #4d5ae5;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background-color: #404bbf;
+  }
+  
   .logo {
     font-family: var(--second-family);
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
     line-height: 117%;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42 ;
+    color: var(--iris);
   }
   
   .studiya {
     font-family: var(--second-family);
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
     line-height: 117%;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42 ;
+    color: var(--navy-blue);
   }
   
   .nav-link {
@@ -119,9 +137,7 @@ body {
     transition: color 0.2s ease;
   }
   
-  .nav-link:hover {
-    color: #404bbf;
-  }
+  .nav-link:hover,
   .nav-link:focus {
     color: #404bbf;
   }
@@ -137,189 +153,57 @@ body {
     transition: color 0.2s ease;
   }
   
-  .contact-link:hover {
-    color: #404bbf;
-  }
+  .contact-link:hover,
   .contact-link:focus {
     color: #404bbf;
   }
-  /* ================== Hero Section =================  */
-/* ================== Кнопки ================== */
-.button, .btn {
-  display: inline-block;
-  padding: 12px 24px;
-  border-radius: 8px;
-  background-color: #2563eb; /* цвет по макету */
-  color: #ffffff;
-  font-weight: 500; /* C12 */
-  text-decoration: none;
-  cursor: pointer; /* C13 */
   
-  transition: background-color 0.2s ease, color 0.2s ease; /* C3 */
-}
-/* =====================Features Section ====================*/
-.features-title {
-  font-family: var(--font-family);
-font-weight: 700;
-font-size: 36px;
-line-height: 111%;
-letter-spacing: 0.02em;
-text-align: center;
-color: var(--navy-blue);
-}
-/*  
-.features-list {
-  
-}
-.features-item {
-  
-}
-*/
-.features-content {
-  font-family: var(--font-family);
-font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-letter-spacing: 0.02em;
-color: var(--navy-blue);
-}
-.features-text {
-  font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: var(--slate);
-}
-/* ================== Team Section =================== */
-.team-title {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 111%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--navy-blue);
-}
-/*  
-.team-list {
-
-}
-.team-item {
-
-} */
-.team-content {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--navy-blue);
-}
-.team-text {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--slate);
-}
-
-/* ================== Our Portfolio ================== */
-  /* Абзацы */
-  .portfolio-description {
-    font-weight: 400; /* C12 */
-    font-size: 16px; /* C9 */
-    line-height: 1.5; /* C10 */
-    color: #555555; /* C11 */
-    margin-top: 6px;
-
-
+  .hero {
+    background-color: #2e2f42;
+    text-align: center;
+    padding: 60px 20px;
   }
+  
   .our-portfolio {
-    color: #404bbf
-  }
-  
-  .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    list-style: none; /* C14 */
-    padding: 0; /* C14 */
-    margin: 0; /* C14 */
+    background-color: #f4f4fd;
   }
   
   .portfolio-item {
-    flex: 1 1 calc(33.333% - 24px);
-    box-sizing: border-box;
+    background-color: #ffffff;
   }
   
-  .portfolio-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px;
+  .fourth-section {
+    text-align: center;
   }
   
-  
-  
-  .button:hover,
-  .button:focus {
-    color: #404bbf;
-  }
-  .btn:hover,
-  .btn:focus {
-    background-color: #1e4bb8; /* активный цвет */
-    outline: none;
+  .fourth-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
   }
   
-  
-  
-  /* ================== Фоновые цвета ================== */
-  .header, footer {
-    background-color: #f9fafb; /* C11 */
+  .fourth-text {
+    letter-spacing: 0.02em;
+    color: #434455;
   }
   
-  /* ================== Адаптивность ================== */
-  @media (max-width: 900px) {
-    .portfolio-item {
-      flex: 1 1 calc(50% - 24px);
-    }
+  .footer {
+    background-color: #2e2f42;
   }
   
-  @media (max-width: 600px) {
-    .portfolio-item {
-      flex: 1 1 100%;
-    }
+  .footer .studiya {
+    color: #f4f4fd;
   }
-
-  /* ============ footer =========== */
-  .logo {
-    font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--iris);
-  }
-  .studiya {
-    font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--navy-blue);
-  }
-
+  
   .footer-text {
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: var(--cloud);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
   }
+  
