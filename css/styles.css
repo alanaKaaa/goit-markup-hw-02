@@ -103,12 +103,12 @@ body {
   
   .studiya {
     font-family: var(--second-family);
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     line-height: 117%;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: var(--navy-blue);
+    color: #2e2f42 ;
   }
   
   .nav-link {
@@ -119,9 +119,10 @@ body {
     transition: color 0.2s ease;
   }
   
-  .nav-link:hover,
-  .nav-link:focus {
+  .nav-link:hover {
     color: #404bbf;
+  }
+  .nav-link:focus {
     color: #404bbf;
   }
   
@@ -136,9 +137,10 @@ body {
     transition: color 0.2s ease;
   }
   
-  .contact-link:hover,
-  .contact-link:focus {
+  .contact-link:hover {
     color: #404bbf;
+  }
+  .contact-link:focus {
     color: #404bbf;
   }
   /* ================== Hero Section =================  */
