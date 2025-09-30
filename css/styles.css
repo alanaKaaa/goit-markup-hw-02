@@ -11,11 +11,39 @@ a {
 button {
   cursor: pointer;
 }
+/* ================== Контакты в header ================== */
+
+  
+.nav-link:hover {
+  color: #404bbf;
+}
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.contact-link {
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-link:hover {
+  color: #404bbf;
+}
+.contact-link:focus {
+  color: #404bbf;
+  color: #404bbf;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
-  color: #111111;
-  background-color: #fafafa;
+  color: #434455 ;
+  background-color:#FFFFFF;
 }
 .button{
 font-family: var(--font-family);
@@ -135,4 +163,6 @@ color: var(--slate);
   
   .contact-list-link:hover,
   .contact-list-link:focus {
-    color: #fd9222;
+    color: #fd9222; 
+  }
+    
