@@ -1,176 +1,138 @@
-:root {
-  --iris: #4d5ae5;
-  --navy-blue: #2e2f42;
-  --slate: #434455;
-  --cloud: #f4f4fd;
-  --font-family: "Roboto", sans-serif;
-  --second-family: "Raleway", sans-serif;
-}
-
-body {
-  font-family: var(--font-family);
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: #ffffff;
-}
-
-ul, ol {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+ul,
+ol {
+  list-style-type: none;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 button {
   cursor: pointer;
 }
 
-h1.hero-title {
-  font-family: var(--second-family);
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #111111;
+  background-color: #fafafa;
 }
-
-h2 {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.button {
-  display: inline-block;
-  padding: 12px 24px;
-  border-radius: 8px;
-  background-color: #4d5ae5;
+.button{
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: var(--white);
+width: 1440px;
+height: 600px;
+background: var(--navy-blue);
+  }
+  .section-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  /* ================ PAGE HEADER STYLES ================ */
+  /* =====================Features Section ====================*/
+.features-title {
   font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  text-decoration: none;
-  cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease;
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--navy-blue);
 }
-
-.button:hover,
-.button:focus {
-  background-color: #404bbf;
+/*  
+.features-list {
+  
 }
-
-.logo {
-  font-family: var(--second-family);
+.features-item {
+  
+}
+*/
+.features-content {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+.features-text {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: var(--slate);
+}
+/* ================== Team Section =================== */
+.team-title {
+  font-family: var(--font-family);
   font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--iris);
-}
-
-.studiya {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: var(--navy-blue);
 }
+/*  
+.team-list {
 
-.nav-link {
+}
+.team-item {
+
+} */
+.team-content {
+  font-family: var(--font-family);
   font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
-}
-
-.header-address {
-  font-style: normal;
-}
-
-.contact-link {
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-  color: #404bbf;
-}
-
-.hero {
-  background-color: #2e2f42;
   text-align: center;
-  padding: 60px 20px;
+  color: var(--navy-blue);
 }
-
-.our-portfolio {
-  background-color: #f4f4fd;
-}
-
-.portfolio-item {
-  background-color: #ffffff;
-}
-
-.fourth-section {
-  text-align: center;
-}
-
-.fourth-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.fourth-text {
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.footer {
-  background-color: #2e2f42;
-}
-
-.footer .studiya {
-  color: #f4f4fd;
-}
-
-.footer-text {
+.team-text {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--cloud);
+  text-align: center;
+  color: var(--slate);
 }
+
+/* ================== Our Portfolio ================== */
+
+
+
+  /* ============ footer =========== */
   
+
+  .page-footer-title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+  
+  .contact-slogan {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+  
+  .contact-list-link {
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+  }
+  
+  .contact-list-link:hover,
+  .contact-list-link:focus {
+    color: #fd9222;
