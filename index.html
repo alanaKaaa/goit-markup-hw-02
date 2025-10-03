@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Web Studio</title>
 
     <!-- google fon-->
     <!--Піключення нормализації-->
@@ -25,19 +25,25 @@
 
   </head>
   <body>
+
+    
     <!-- ============= Header ============= -->
-    <header class="header">
-      <a href="./index.html" class="logo">Web<span class="studiya">Studio</span></a>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
+
+    <header class="page-header">
+      <a href="./index.html"
+       class="logo-web">Web<span 
+       class="studiya">Studio</span></a>
+
+      <nav class="page-nav">
+        <ul class="menu">
+          <li class="menu-item">
+            <a class="site-logo" href="./index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Portfolio</a>
+          <li class="menu-item">
+            <a class="site-logo" href="./index.html">Portfolio</a>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contacts</a>
+          <li class="menu-item">
+            <a class="site-logo-logo" href="./index.html">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -54,17 +60,24 @@
             class="contact-link">+11 (000) 111-11-11
           </a>
           </li>
+          <li>
+            <a href="https://devstudio.com" 
+            class="contact-link">devstudio.com
+            </a>
+          </li>
         </ul>
       </address>
     </header>
+ <main>
 
-    <main>
-      <!-- Hero Section -->
+      <!-- ===== Hero Section 1ST ===== -->
+
       <section class="hero">
         <h1 class="hero-titel">Effective Solutions for Your Business</h1>
-        <button class="button" type="button">Order Service</button>
+        <button class="hero-button" >Order Service</button>
       </section>
-      <!-- Features Section -->
+
+      <!-- ===== Features Section 2ND ===== -->
       <section>
         <h2 class="features-title">Features</h2>
         <ul class="features-list">
@@ -101,7 +114,8 @@
           </li>
         </ul>
       </section>
-      <!-- Team Section -->
+
+      <!-- Team Section 3TH -->
       <section>
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
@@ -127,14 +141,16 @@
           </li>
         </ul>
       </section>
-      <!--our portfolio section-->
+
+      <!--our portfolio section 4TH -->
+
       <section class="our-portfolio">
         <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="portfolio-list">
 
           <li class="portfolio-item">
             <img src="./images/portfolio/img-1.jpg" 
-            alt="banking app"
+            alt="Banking app"
              width="360" 
              height="300">
             <h3 class="portfolio-title">Banking App</h3>
