@@ -35,47 +35,20 @@ body {
 }
 
 /* ========== Header ========== */
-.button {
-  display: inline-block;
-  padding: 12px 24px;
-  border-radius: 8px;
-  background-color: #4d5ae5;
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  text-decoration: none;
-  cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-.button:hover,
-.button:focus {
-  background-color: #404bbf;
-}
 
 .logo {
-  font-family: var(--second-family);
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
-  color: var(--navy-blue);
+  color: #4d5ae5;
 }
 
 .studio {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--navy-blue);
-} 
+  color: #2e2f42;
+}
 
 .menu-link {
   font-weight: 500;
