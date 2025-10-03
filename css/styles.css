@@ -36,53 +36,52 @@ body {
 
 /* ========== Header ========== */
 
+.header {
+}
 
-.web_logo {
+.logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-   color: #4d5ae5;
-   text-decoration: none;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:#4D5AE5;
 }
 
-.studio_name {
-  font-family: "Raleway", sans-serif; 
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-   color: #2e2f42;
+.studio {
+  font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:#2e2f42;
 }
 
-.studio_name:span {
-  color: #2e2f42;
-}
+/* nav */
 
-/* -- Меню навігації -- */
-.menu_link {
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #2E2F42;
   text-decoration: none;
 }
 
-.menu_link:hover,
-.menu_link:focus {
-  color: #404bbf;
+.nav-link:hover,
+.nav-link:focus {
+  color: #404BBF;
 }
 
-/* -- Контакти -- */
-.header_address {
+/* social links  контакти */
+
+.header-address {
   font-style: normal;
 }
 
-.contact_link {
+.social-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -90,9 +89,9 @@ body {
   text-decoration: none;
 }
 
-.contact_link:hover,
-.contact_link:focus {
-  color: #404bbf;
+.social-link:hover,
+.social-link:focus {
+  color: #404BBF;
 }
 
 
