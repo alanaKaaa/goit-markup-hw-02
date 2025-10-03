@@ -115,6 +115,7 @@ background-color: #4D5AE5;
 
 .hero-button:hover,
 .hero-button:focus {
+  font-weight: 500 ;
   background-color: #404BBF;
 }
 
@@ -249,8 +250,7 @@ background-color: #4D5AE5;
 /* ===== Footer ===== */
 
 .footer {
-  background-color: #2e2f42;
-  text-align: center;
+  background-color:#2e2f42;
 }
 
 .logo {
@@ -262,15 +262,27 @@ background-color: #4D5AE5;
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  
 }
 
 .studiya {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
   color: #f4f4fd;
+  
 }
 
 .footer-text {
-  line-height: 1.5;
-  color: var(--footer-text-color, #F4F4FD);
-  letter-spacing: 0.02em;
-  margin-top: 16px;
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: var(--cloud);
+
 }
